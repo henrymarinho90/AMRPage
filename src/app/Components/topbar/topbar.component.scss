@@ -7,19 +7,17 @@
 
 .top-bar {
   position: relative;
-  height: 90px;
-  background: #ffffff;
+  height: 150px;
+  background: #000000;
   padding-top: 20px;
-  width: 100% auto;
-
+  width: 100%;
 
   a {
-    text-decoration: #000000;
+    text-decoration: #ffffff;
     text-align: center;
   }
 
   .logo {
-    padding: 15px 0px;
     text-align: left;
     text-overflow: ellipsis;
     padding-top: 15px;
@@ -37,7 +35,7 @@
   }
 
   &:hover .logo:hover h1:hover {
-    text-decoration: #000000;
+    text-decoration: #ffffff;
   }
 
   .logo img {
@@ -47,7 +45,7 @@
 
   .top-bar-right {
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: flex-end;
   }
 
@@ -62,7 +60,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.15);
 
     h2 {
-      color: #000000;
+      color: #ffffff;
       font-family: 'Roboto',sans-serif;
       font-weight: 500;
       font-style: normal;
@@ -71,7 +69,7 @@
     }
 
     p {
-      color: #000000;
+      color: #ffffff;
       font-size: 13px;
       margin: 0;
     }
@@ -90,7 +88,7 @@
       width: 60px;
       height: 100%;
       font-size: 22px;
-      color: #000000;
+      color: #ffffff;
       border-right: 1px solid rgba(255, 255, 255, 0.15);
 
       &:first-child {
@@ -99,26 +97,8 @@
 
       &:hover {
         color: #F1C855;
-        background: #000000;
+        background: #ffffff;
       }
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .top-bar {
-    padding: 0 60px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .top-bar {
-    .logo {
-      text-align: center;
-    }
-
-    .social {
-      display: none;
     }
   }
 }
